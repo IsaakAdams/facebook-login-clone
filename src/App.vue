@@ -1,27 +1,12 @@
 <template>
   <div id="app">
-    <MainContent />
+    <router-view/>
   </div>
 </template>
 
-<script>
-import MainContent from './components/MainContent.vue';
+<!-- <router-link to="/">Home</router-link> -->
 
-export default {
-  name: 'App',
-  components: {
-    MainContent
-  }
-}
-</script>
-
-<style scoped>
-  * {
-    box-sizing: border-box;
-  }
-  
-  #app {
-    font-family: 'Roboto, Segoe UI';
-    background-color: #f0f2f5;
-  }
+<style>
+/* Montserrat Font */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 </style>
