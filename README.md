@@ -1,4 +1,4 @@
-# frontend
+# facebook-login-clone
 
 ## Project setup
 ```
